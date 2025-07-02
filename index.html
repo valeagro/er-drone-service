@@ -114,7 +114,8 @@
       padding: 0 1em;
     }
 
-    .gallery img {
+    .gallery img,
+    .gallery video {
       width: 100%;
       height: auto;
       border-radius: 10px;
@@ -122,7 +123,8 @@
       transition: transform 0.3s;
     }
 
-    .gallery img:hover {
+    .gallery img:hover,
+    .gallery video:hover {
       transform: scale(1.03);
     }
 
@@ -184,59 +186,63 @@
   </style>
 </head>
 <body>
+
+<!-- Música de fundo -->
 <audio autoplay loop>
   <source src="suave.mp3" type="audio/mpeg">
   Seu navegador não suporta áudio.
 </audio>
 
-  <header>
-    <img src="er_drone_logo.png" alt="Logo da Empresa" class="logo">
-    <h1>ER Drone Services</h1>
-    <p>Juazeiro - BA | Petrolina - PE</p>
-  </header>
+<header>
+  <img src="er_drone_logo.png" alt="Logo da Empresa" class="logo">
+  <h1>ER Drone Services</h1>
+  <p>Juazeiro - BA | Petrolina - PE</p>
+</header>
 
-  <section class="hero">
-    <video autoplay muted loop playsinline>
-      <source src="237279_small.mp4" type="video/mp4">
-      Seu navegador não suporta vídeos HTML5.
-    </video>
-    <div class="hero-content">
-      <h1>Imagens aéreas profissionais</h1>
-      <p>Imóveis, plantações, eventos, inspeções e muito mais</p>
-      <a href="https://wa.me/5574988066444" target="_blank">Fale agora pelo WhatsApp</a>
-    </div>
-  </section>
+<section class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="237279_small.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos HTML5.
+  </video>
+  <div class="hero-content">
+    <h1>Imagens aéreas profissionais</h1>
+    <p>Imóveis, plantações, eventos, inspeções e muito mais</p>
+    <a href="https://wa.me/5574988066444" target="_blank">Fale agora pelo WhatsApp</a>
+  </div>
+</section>
 
-  <section class="section services">
-    <h2>Serviços Oferecidos</h2>
-    <ul>
-      <li>📷 Filmagens e fotos de imóveis</li>
-      <li>🌾 Agricultura e mapeamento</li>
-      <li>🎉 Eventos e cerimônias</li>
-      <li>🔍 Inspeções e áreas de difícil acesso</li>
-    </ul>
-  </section>
+<section class="section services">
+  <h2>Serviços Oferecidos</h2>
+  <ul>
+    <li>📷 Filmagens e fotos de imóveis</li>
+    <li>🌾 Agricultura e mapeamento</li>
+    <li>🎉 Eventos e cerimônias</li>
+    <li>🔍 Inspeções e áreas de difícil acesso</li>
+  </ul>
+</section>
 
-  <section class="section">
-  <h2>Galeria de Imagens</h2>
+<section class="section">
+  <h2>Galeria de Imagens e Vídeos</h2>
   <div class="gallery">
+    <!-- Imagens -->
     <img src="intersection-5977967_1280.jpg" alt="Entardecer da Cidade">
     <img src="IMG_20250612_172214.jpg" alt="Pôr do sol na caatinga">
     <img src="imagem 3.JPG.png" alt="Nova Imagem">
-    <video controls width="100%">
-      <video autoplay muted loop playsinline>
+
+    <!-- Vídeo na galeria -->
+    <video controls>
       <source src="suave.mp4" type="video/mp4">
       Seu navegador não suporta vídeos.
     </video>
   </div>
 </section>
 
-  <footer>
-    <p>© 2025 Eliabe Araujo - Todos os direitos reservados</p>
-    <p>Instagram: <a href="https://instagram.com/eliabearaujo1276" target="_blank">@eliabearaujo1276</a></p>
-  </footer>
+<footer>
+  <p>© 2025 Eliabe Araujo - Todos os direitos reservados</p>
+  <p>Instagram: <a href="https://instagram.com/eliabearaujo1276" target="_blank">@eliabearaujo1276</a></p>
+</footer>
 
-  <a href="https://wa.me/5574988066444" class="whatsapp-float" target="_blank">💬</a>
+<a href="https://wa.me/5574988066444" class="whatsapp-float" target="_blank">💬</a>
 
 </body>
 </html>
